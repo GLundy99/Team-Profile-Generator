@@ -5,21 +5,12 @@ class Employee {
         this.email = email;
     }
 
-    getName(){
-        return this.name;
-    }
+    getName() {};
 
-    getId(){
-        return this.id;
-    }
+    getId() {};
 
-    getEmail(){
-        return this.email;
-    }
+    getEmail() {};
 
-    getRole(){
-        return "Employee";
-    }
+    getRole() {}
 }
-
-module.exports = Employee; 
+ 
